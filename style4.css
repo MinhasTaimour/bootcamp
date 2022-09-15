@@ -1,0 +1,104 @@
+body{
+
+    background-color: black;
+    background-image: url('cloud3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main
+{
+
+    background-image: url('cloud2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+background-color: white;
+border :solid lightblue;
+position:absolute;
+width: 400px;
+height: 400px;
+top: 250px;
+left: 680px;
+border-radius: 15px;
+text-shadow: pink;
+
+}
+.upper
+{
+
+
+position:relative;
+width: 400px;
+height: 130px;
+
+}
+
+.right
+{
+
+
+position:absolute;
+width: 200px;
+height: 130px;
+left: 10px;
+
+}
+.left
+{
+
+
+position:absolute;
+width: 200px;
+height: 130px;
+right: 8px;
+text-align:right;
+
+
+}
+
+
+.center{
+
+   
+    position:relative;
+    width: 400x;
+    height: 130px;
+    text-align: center;
+ bottom: 35px;
+    font-size: 70px;
+    font-weight: bold;
+    
+
+}
+.lower
+{
+
+
+position:relative;
+width: 400px;
+height: 140px;
+
+
+}
+.right2
+{
+
+
+position:absolute;
+width: 200px;
+height: 140px;
+left: 10px;
+
+}
+.left2
+{
+
+
+position:absolute;
+width: 200px;
+height: 140px;
+right: -120px;
+font-size: 70px;
+top: 0px;
+}
+
