@@ -1,0 +1,22 @@
+p {
+    color: rgba(255, 30, 0, 0.801);
+}
+
+h1 {
+    color: rgba(81, 255, 0, 0.801);
+}
+
+body {
+    background-image: url(l4.lnk);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+
+  }
+  .table-cl th{
+      font-size:23; background-color: yellow ; 
+  }

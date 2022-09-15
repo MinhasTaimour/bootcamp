@@ -1,0 +1,72 @@
+div.img {
+    position: fixed;
+    width: 400px;
+    left: 420px;
+  
+    bottom: 550px;
+}
+p {
+    position: fixed;
+    width: 400px;
+    left: 465px;
+    bottom: 500px;
+    font-size: 25px;
+}
+body {
+
+    background: rgba(231, 226, 226, 0.575);
+
+}
+div.form{
+
+    position: fixed;
+    width: 400px;
+    left: 1040px;
+    bottom: 450px;
+    border: solid white;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+input{
+
+    width: 380px;
+    height: 40px;
+}
+button{
+
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+    position: relative;
+    top: 10px;
+
+}
+
+.p1
+{
+
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+  
+    position: fixed;
+    width: 400px;
+    left: 1180px;
+    bottom: 530px;
+
+}
+button[name="lo"]{
+
+    background-color: #42b72a;
+    position: fixed;
+    top: 360px;
+    left: 1080px;
+  
+}
