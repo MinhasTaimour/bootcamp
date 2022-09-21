@@ -1,0 +1,55 @@
+body{
+
+    background-color: GREY;
+}
+
+.upperscreen{
+position: relative;
+height: 205px;
+width: 320px;
+background-color: black;
+text-align:left;
+}
+.lowerscreen{
+    position: fixed;
+    height: 317px;
+    width: 320px;
+background-color: black;
+    }
+
+    .line1{
+        position: relative;
+        height: 38px;
+        width: 320px;
+        
+
+    }
+    .line2{
+        position: relative;
+        height: 38px;
+        width: 320px;
+       
+        }
+            .line3{
+                position: relative;
+                height: 38px;
+                width: 320px;
+               
+                }
+                .line4{
+                    position: relative;
+                    height: 38px;
+                    width: 320px;
+                   
+                    }
+                    .line5{
+                        position: relative;
+                        height: 38px;
+                        width: 320px;
+                     
+                        }
+                       
+button{
+     zoom: 2.5;
+     text-align: center;
+}
