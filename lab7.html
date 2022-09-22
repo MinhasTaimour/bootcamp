@@ -9,44 +9,77 @@
     <title>Document</title>
 </head>
 <body>
+
     <div class="upperscreen">
       <p style="color: white;"> Calculator </p>
+      <p  id ="text" style="color: aliceblue;"></p>
+     
 
     </div>
     <div class="lowerscreen">
-       
+     
         <div class="line1">
-        <button type="button" class="btn btn-light">%</button>
-        <button type="button" class="btn btn-light">CE</button>
-        <button type="button" class="btn btn-light">C</button>
-        <button type="button" class="btn btn-light"><i class="fa-solid fa-delete-left"></i></button>
+        <button onclick="display('%')"type="button" class="btn btn-light">%</button>
+        <button onclick="display('CE')"type="button" class="btn btn-light">CE</button>
+        <button onclick="display('C')"type="button" class="btn btn-light">C</button>
+        <button onclick="display('BACK')"type="button" class="btn btn-light"><i class="fa-solid fa-delete-left"></i></button>
         </div><BR></BR>
         <div class="line2">
-            <button type="button" class="btn btn-light">7</button>
-            <button type="button" class="btn btn-light">8</button>
-            <button type="button" class="btn btn-light">9</button>
-            <button type="button" class="btn btn-light"><i class="fa-solid fa-xmark"></i></button>
+            <button onclick="display(7)"type="button" class="btn btn-light">7</button>
+           
+            <button onclick="display(8)"type="button" class="btn btn-light">8</button>
+            <button onclick="display(9)"type="button" class="btn btn-light">9</button>
+            <button onclick="display('*')"type="button" class="btn btn-light"><i class="fa-solid fa-xmark"></i></button>
         </div><br>
         <div class="line3">
-            <button type="button" class="btn btn-light">4</button>
-            <button type="button" class="btn btn-light">5</button>
-            <button type="button" class="btn btn-light">6</button>
-            <button type="button" class="btn btn-light">-</button>
+            <button onclick="display(4)"type="button" class="btn btn-light">4</button>
+            <button onclick="display(5)"type="button" class="btn btn-light">5</button>
+            <button onclick="display(6)"type="button" class="btn btn-light">6</button>
+            <button onclick="display('-')" type="button" class="btn btn-light">-</button>
         </div><br>
         <div class="line4">
-            <button type="button" class="btn btn-light">1</button>
-            <button type="button" class="btn btn-light">2</button>
-            <button type="button" class="btn btn-light">3</button>
-            <button type="button" class="btn btn-light">+</button>
+            <button id ="1" onclick="display(1)" type="button" class="btn btn-light">1</button>
+            <button onclick="display(2)" type="button" class="btn btn-light">2</button>
+            <button onclick="display(3)"type="button" class="btn btn-light">3</button>
+            <button onclick="display('+')"type="button" class="btn btn-light">+</button>
         </div><br>
         <div class="line5">
-            <button type="button" class="btn btn-light">.</button>
-            <button type="button" class="btn btn-light">0</button>
-            <button type="button" class="btn btn-light">$</button>
-            <button type="button" class="btn btn-light">=</button>
+            <button onclick="display('.')"type="button" class="btn btn-light">.</button>
+            <button onclick="display(0)"type="button" class="btn btn-light">0</button> 
+            <button id="=" onclick="display('=')"type="button" class="btn btn-light">=</button> 
+            <button onclick="display('/')"type="button" class="btn btn-light">/</button>
+            
         </div>
   
 
     </div>
+    <script>
+        // document.getElementById("1").addEventListener("click", display);
+        let value = "";
+        function display(item)
+        {
+            if(item == '='){
+                operation();
+            }
+            else if (item=='BACK')
+            document.getElementById('text').innerHTML=document.getElementById('text').innerText.slice(0,document.getElementById('text').innerText.length-1)
+            
+            else{
+                value = value + item;
+            document.getElementById("text").innerHTML = value;
+            }
+            
+        }
+        document.getElementById("=").addEventListener("click",operation)
+        function operation(){
+
+            document.getElementById("text").innerHTML = eval(document.getElementById("text").textContent);
+        }
+   
+     
+        
+
+        </script>
+        
 </body>
 </html>

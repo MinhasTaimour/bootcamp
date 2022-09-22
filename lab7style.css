@@ -1,6 +1,7 @@
 body{
 
-    background-color: GREY;
+    background-color:lightgrey;
+   
 }
 
 .upperscreen{
@@ -9,47 +10,51 @@ height: 205px;
 width: 320px;
 background-color: black;
 text-align:left;
+border-radius: 1.5px;
 }
 .lowerscreen{
     position: fixed;
     height: 317px;
     width: 320px;
 background-color: black;
+border-radius: 1.5px;
     }
 
     .line1{
         position: relative;
         height: 38px;
         width: 320px;
-        
+        word-spacing: 3px;
 
     }
     .line2{
         position: relative;
         height: 38px;
         width: 320px;
-       
+        word-spacing: 18px;
         }
             .line3{
                 position: relative;
                 height: 38px;
                 width: 320px;
-               
+                word-spacing: 18px;
                 }
                 .line4{
                     position: relative;
                     height: 38px;
                     width: 320px;
-                   
+                    word-spacing: 18px;
                     }
                     .line5{
                         position: relative;
                         height: 38px;
                         width: 320px;
-                     
+                        word-spacing: 18px;
                         }
                        
 button{
      zoom: 2.5;
      text-align: center;
+     border-radius: 50px;
+    
 }
