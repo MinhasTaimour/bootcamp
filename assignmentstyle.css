@@ -1,0 +1,182 @@
+body{
+    background-color: #282c34;
+    color: white;
+}
+.page1{
+    height: 700px;
+}
+.upper
+{ 
+    position: relative;
+    font-size: 20;
+    font-weight: bold;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    color: #282c34 ;
+    
+}
+.center
+{
+    position: relative;
+    font-size: 20;
+    font-weight: bold;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+
+}
+.lower
+{
+    position: relative;
+    font-size: 20;
+    font-weight: bold;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    background-color: #282c34;
+    border: #282c34;
+}   
+
+.page2{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: whitesmoke ;
+}
+.pic {
+position: relative;
+width: 35%;
+text-align: center;
+top: 20%;
+}
+.aboutme{
+position: relative;
+width:65%;
+left: 35%;
+top: -20%;
+font-weight: bold;
+font-size: 15px;
+text-align: start;
+color: #282c34;
+}
+.cd{
+position: relative;
+width:65%;
+left: 35%;
+top: -18%;
+font-weight: bold;
+font-size: 15px;
+text-align: start;
+color: #282c34;
+}
+
+.page3 {
+    height: 900px;
+    width: 100%;
+    background-color: lightgray;
+}
+.work {
+    position: relative;
+    height: 28%;
+    text-decoration-color: skyblue;
+}
+.education { 
+    position: relative;
+    height: 28%;
+    border-top: solid gray;
+
+}
+.skills {
+    position: relative;
+    height: 28%;
+    border-top: solid gray;
+  
+}
+.description {
+    position: relative;
+    height: 16%;
+    width: 100%;
+    background-color: rgba(255, 182, 193, 0.795);
+    text-align: center;    
+}
+.l {
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    text-align: center;
+    color: black;
+}
+.r {
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    left: 35%;
+    color: black;
+}
+.tt{
+    text-decoration-color: rgb(29, 202, 202); ;
+}
+
+.Page4{
+    height: 400px;
+    color: black;
+    background-color: white;
+}
+.prev{
+    position: relative;
+    width: 20%;
+    top: 49%;
+    text-align: center;
+}
+.profile{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    left: 20%;
+}
+.next{
+    position:relative;
+    width: 20%;
+    top: 40%;
+    left: 80%;
+    text-align: center;
+}
+.Page5{
+    height: 700px;
+    background-color: #282c34;
+}
+.text-fields{
+    position: relative;
+    top: 20%;
+}
+.form-control{
+    position: relative;
+    background-color: #f0f4fc25;
+    width: 40%;
+    left: 30%;
+}
+.form-label{
+    position: relative;
+    left: 20%;
+}
+button[id="submit"]{
+    position: relative;
+    left: 20%;
+    background-color: rgb(27, 163, 163);
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5%;
+
+}
+
+button{
+
+    background-color: pink;
+}
+
